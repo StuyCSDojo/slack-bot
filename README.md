@@ -21,6 +21,8 @@
     $ sudo apt-get install libapache2-mod-wsgi-py3 
     $ sudo a2enmod wsgi # this might say: "Module wsgi already enabled"
     $ sudo service apache2 restart
+    $ apt-get install python3-pip
+    $ pip3 install flask
     ```
 4. Run this:
     ```sh
