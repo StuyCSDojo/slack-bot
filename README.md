@@ -27,6 +27,10 @@
     $ cd /var/www/
     $ git clone https://github.com/StuyCSDojo/slackbot.git
     $ cd slackbot
+
+    # IMPORTANT READ THIS READ THIS READ THIS ---
+    # Modify slackbot.conf and change the value of "ServerName" to the ipaddress of the droplet (ipv4)
+
     $ chgrp -R www-data slackbot
     $ chmod -R g+w slackbot
     $ cp /var/www/slackbot/slackbot.conf /etc/apache2/sites-available/slackbot.conf
